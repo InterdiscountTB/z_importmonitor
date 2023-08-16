@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1692181341135_820_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "zimportmonitor",
+    "packageName": "",
+    "content": {
+        "property": "growingThreshold",
+        "newValue": 0
+    },
+    "selector": {
+        "id": "zimportmonitor::sap.suite.ui.generic.template.ObjectPage.view.Details::PurchaseOrder--InboundDelivery::responsiveTable",
+        "idIsLocal": false,
+        "type": "sap.m.Table"
+    },
+    "layer": "CUSTOMER_BASE",
+    "texts": {},
+    "namespace": "apps/zimportmonitor/changes/",
+    "projectId": "",
+    "creation": 1692181341135,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": "1.108.0",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "0.0.1",
+        "to": "0.0.1",
+        "creation": "0.0.1"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}

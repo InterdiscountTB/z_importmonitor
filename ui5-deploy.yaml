@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "2.6"
+metadata:
+  name: zimportmonitor
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          destination: EN1_ABAP_REPO
+          url: http://en1.virtual:443
+        app:
+          name: Z_IMPMON
+          description: Import Monitor
+          package: ZMM_PROC_IMPORT
+          transport: EN1K903232
+        exclude:
+          - /test/
